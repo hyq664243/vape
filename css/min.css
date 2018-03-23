@@ -1,0 +1,55 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.item active a {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel {
+  max-height: 500px;
+  background-color: #000;
+  margin-bottom: 100px;
+}
+
+.carousel .item {
+  max-height: 500px;
+  background-color: #000;
+}
+
+.carousel-caption p{
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+#sum-container .col-md-4{
+  text-align: center;
+}
+
+#sum-container h3 {
+  margin: 20px;
+}
+
+.sty-hr {
+  margin: 40px 0 40px;
+}
+
+.feature {
+  padding: 50px;
+}
+
+.feature-heading {
+  font-size: 50px;
+}
+
+.feature-heading .text-muted {
+  font-size: 28px;
+  color: #999:
+}

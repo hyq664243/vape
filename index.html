@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/min.css">
+    <title>VAPE</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#demo-navbar">
+                <span class="sr-only">/span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">VAPE</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="demo-navbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Top</a></li>
+                <li><a href="#">简述</a></li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        详情<b class="caret"></b>
+                    <ul class="dropdown-menu">
+                        <li><a href="#chrome">ET</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#ff">DJ</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#safari">PIRATE</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#opera">STAR</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#ie">HUNTER</a></li>
+                    </ul>
+                  </a>
+                </li>
+                <li><a href="#" data-toggle="modal" data-target="#myModal">关于</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <!-- 轮播（Carousel）项目 -->
+      <div class="carousel-inner">
+          <div class="item active">
+              <img src="images/1.jpg" alt="First slide">
+              <div class="carousel-caption">
+                <p>
+                  <h3>幸运猴烟油</h3>
+                  <a class="btn btn-primary" href="http://www.pinyou8.com/" role="button" target="_blank">立即购买</a>
+                </p>
+              </div>
+          </div>
+
+          <div class="item">
+              <img src="images/2.jpg" alt="Second slide">
+              <div class="carousel-caption">
+                <p>
+                  <h3>幸运猴烟油</h3>
+                  <a class="btn btn-primary" href="http://www.pinyou8.com/" role="button" target="_blank">立即购买</a>
+                </p>
+              </div>
+          </div>
+
+          <div class="item">
+              <img src="images/3.jpg" alt="Third slide">
+              <div class="carousel-caption">
+                <p>
+                  <h3>幸运猴烟油</h3>
+                  <a class="btn btn-primary" href="http://www.pinyou8.com/" role="button" target="_blank">立即购买</a>
+                </p>
+              </div>
+          </div>
+
+          <div class="item">
+              <img src="images/4.jpg" alt="fourth slide">
+              <div class="carousel-caption">
+                <p>
+                  <h3>幸运猴烟油</h3>
+                  <a class="btn btn-primary" href="http://www.pinyou8.com/" role="button" target="_blank">立即购买</a>
+                </p>
+              </div>
+          </div>
+      </div>
+      <!-- 轮播（Carousel）导航 -->
+      <a class="carousel-control left" href="#myCarousel"
+          data-slide="prev">&lsaquo;
+      </a>
+      <a class="carousel-control right" href="#myCarousel"
+          data-slide="next">&rsaquo;
+      </a>
+    </div>
+
+    <div id="sum-container" class="container">
+     <div class="row">
+        <div class="col-md-4">
+          <img src="images/et.jpg" alt="et" class="img-circle">
+          <h3>外星人</h3>
+          <p>
+              黑加仑子特有的酸味，中和哈密瓜的甜香，只为丰富口感渐变，吸入和呼出就是超美味的组合。
+          </p>
+            <a href="http://www.pinyou8.com/shop/1427.html" class="btn btn-default" role="button">点我购买</a>
+        </div>
+        <div class="col-md-4">
+          <img src="images/black.jpg" alt="black" class="img-circle">
+          <h3>海盗</h3>
+          <p>
+            开瓶后能闻到芬达汽水的味道，激发味蕾，吸引人去品尝。再混合优质的草莓，又是另一番甜美的蒸汽享受。
+          </p>
+            <a href="http://www.pinyou8.com/shop/1431.html" class="btn btn-default" role="button">点我购买</a>
+        </div>
+        <div class="col-md-4">
+          <img src="images/dj.jpg" alt="safari" class="img-circle">
+          <h3>DJ</h3>
+          <p>
+            草莓的甜美诱惑+柠檬的清香冰爽，两者不同的清新感混合一体，柔顺没有任何刺激力。
+          </p>
+            <a href="https://www.apple.com/cn/safari/" class="btn btn-default" role="button">点我购买</a>
+        </div>
+     </div>
+     <hr class="sty-hr">
+
+     <ul class="nav nav-tabs" id="tab-list">
+       <li><a href="#chrome" data-toggle="tab">外星人</a></li>
+       <li><a href="#ff" data-toggle="tab">DJ</a></li>
+       <li><a href="#safari" data-toggle="tab">海盗</a></li>
+       <li><a href="#opera" data-toggle="tab">猎人</a></li>
+       <li><a href="#ie" data-toggle="tab">明星</a></li>
+     </ul>
+     <div class="tab-content">
+       <div class="tab-pane fade" id="chrome">
+         <div class="row feature">
+           <div class="col-md-5">
+             <img src="images/et-big.jpg" alt="chrome" class="feature-image img-responsive">
+           </div>
+           <div class="col-md-7">
+             <h2 class="feature-heading">ET烟油 <span class="text-muted">新鲜黑加仑</span></h3>
+             <p class="lead">开瓶就能闻到浓郁的哈密瓜其中伴随着黑加仑子果汁的味道，入口黑加仑子酸酸的味道夹带哈密瓜的甜，比起普通的葡萄口味多了哈密瓜的清香，口感层次分明，顺滑，呼出明显可以感觉的出来哈密瓜的瓜香，清凉的黑加仑子加哈密瓜，感觉就像是冻过的水果饮料，果然是夏天必备的烟油。</p>
+           </div>
+         </div>
+       </div>
+       <div class="tab-pane fade" id="ff">
+         <div class="row feature">
+           <div class="col-md-5">
+            <img src="images/dj-big.jpg" alt="dj" class="feature-image img-responsive">
+          </div>
+          <div class="col-md-7">
+            <h2 class="feature-heading">DJ烟油<span class="text-muted">草莓柠檬</span></h3>
+            <p class="lead">开瓶柠檬的气息明显，草莓的香味稍微有点逊色，入口凉凉是第一感觉带有柠檬的酸，口感顺滑，慢慢呼出带有少许的草莓味道，喉咙中丝丝的甜，呼出的烟雾中夹带柠檬特有的香气，这款烟油比较像是柠檬口味多一点，不会太甜，顺口，3MG带来少许的击喉感，比较适合抽了重口的烟油之后冲淡味道~夏天抽最好。</p>
+          </div>
+        </div>
+      </div>
+       <div class="tab-pane fade" id="safari">
+         <div class="row feature">
+           <div class="col-md-5">
+            <img src="images/black-big.jpg" alt="safari" class="feature-image img-responsive">
+            </div>
+            <div class="col-md-7">
+              <h2 class="feature-heading">海盗烟油<span class="text-muted">菠萝芬达</span></h3>
+              <p class="lead">开瓶首先闻到的是菠萝的香气，酸酸的气味已经让人吞口水，至于草莓的香气被菠萝的果香给概括了，入口菠萝的味道依然是占据了主导，酸酸的菠萝很可口微微有点草莓的气息，顺口，呼出口中留有酸甜的味道，抽多几口草莓的味道才慢慢体现出来，只能说这款烟油草莓只能掩埋起来了，清凉的感觉给菠萝带来饮料的感觉。</p>
+            </div>
+          </div>
+        </div>
+       <div class="tab-pane fade" id="ie">
+         <div class="row feature">
+             <div class="col-md-7">
+               <h2 class="feature-heading">猎人烟油<span class="text-muted">清爽橙汁</span></h3>
+               <p class="lead">开瓶味道是沙糖桔剥开之后的果香，凉凉的橘子味道，有点像血橙，甜度适中，口中味道像是橘子之中混合着橙子，酸酸的口感形容成沙糖桔一点都不为过，让人欲罢不能。</p>
+             </div>
+            <div class="col-md-5">
+              <img src="images/hunter-big.jpg" alt="opera" class="feature-image img-responsive">
+            </div>
+          </div>
+      </div>
+       <div class="tab-pane fade" id="opera">
+         <div class="row feature">
+           <div class="col-md-7">
+             <h2 class="feature-heading">明星烟油<span class="text-muted">迷醉葡萄</span></h3>
+             <p class="lead">开瓶厚重的葡萄香气，像是葡萄饮料，入口清凉度应该是系列里面最凉的一款，达到冰的程度，冰爽的葡萄汁里面混合苹果的果酸，微甜还原度高，呼出带有苹果的果酸，口中留有葡萄汁的甜，多抽几口都感觉很新鲜，夏天里必备的清凉果汁。</p>
+           </div>
+           <div class="col-md-5">
+            <img src="images/smile-big.jpg" alt="ie" class="feature-image img-responsive">
+          </div>
+        </div>
+      </div>
+     </div>
+    <hr class="sty-hr">
+    <footer>
+      <p class="pull-right"><a href="#top">回到顶部</a></p>
+      <p>©2018 monster</p>
+    </footer>
+    </div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4>关于</h4>
+            </div>
+            <div class="modal-body">
+              <p>素材来源网络</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">了解</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+  </body>
+</html>
